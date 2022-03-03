@@ -19,6 +19,7 @@ import { ShowcaseComponent } from './showcase/showcase.component';
 import { VerticalComponent } from './vertical/vertical.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/align-content', pathMatch:'full' },
   { path: 'align-content', component: AlignContentComponent },
   { path: 'align-self', component: AlignSelfComponent },
   { path: 'alignment', component: AlignmentComponent },
